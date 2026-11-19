@@ -1,0 +1,22 @@
+{
+  "templateId": "next-handyman-toolbox",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "fullPage": false,
+  "captures": [
+    {
+      "mode": "light",
+      "sha256": "4e57ec1630ee34f8af9a8b58a096f0941c1e9f828e36c7ebcdbb0ca4fa2ae75c",
+      "file": "jamstacks/home-light.jpg",
+      "bytes": 184459
+    },
+    {
+      "mode": "dark",
+      "sha256": "e2c9349382891e334ae1d0344a204ea7b30878d8020f69914d021092d7186b56",
+      "file": "jamstacks/home-dark.jpg",
+      "bytes": 153967
+    }
+  ]
+}

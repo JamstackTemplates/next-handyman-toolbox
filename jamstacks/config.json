@@ -1,0 +1,19 @@
+{
+  "name": "Toolbox handyman",
+  "description": "A friendly toolbox-red and pegboard theme for handymen and odd-job services: a 'no job too small' job list with typical hours, a job tally that adds up a rough labour guide, hourly rates on a punch-clock time card, a tape-measure service area, phone hours and a Jamstacks contact component for job enquiries.",
+  "tech": "next",
+  "type": "handyman",
+  "style": "toolbox",
+  "internal": false,
+  "components": [
+    "support-form"
+  ],
+  "configFile": "site.config.json",
+  "screenshots": {
+    "light": "jamstacks/home-light.jpg",
+    "dark": "jamstacks/home-dark.jpg",
+    "theme": {
+      "strategy": "media"
+    }
+  }
+}

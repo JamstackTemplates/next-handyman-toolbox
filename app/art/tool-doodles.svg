@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="440" viewBox="0 0 440 440" fill="none" stroke="#ffffff" stroke-opacity="0.11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <style>*{vector-effect:non-scaling-stroke}</style>
+  <!-- Decorative handyman tool wallpaper tile for dark warehouse bands. 24-unit icons scaled ~2.4x. -->
+  <!-- claw hammer -->
+  <g transform="translate(40 34) rotate(-28 12 12) scale(2.5)">
+    <path d="m15 12-8.5 8.5a2.12 2.12 0 1 1-3-3L12 9"/><path d="M17.64 15 22 10.64"/>
+    <path d="m20.91 11.7-1.25-1.25c-.6-.6-.93-1.4-.93-2.25v-.86L16.01 4.6a5.56 5.56 0 0 0-3.94-1.64H9l.92.82A6.18 6.18 0 0 1 12 8.4v1.56l2 2h2.47l2.26 1.91"/>
+  </g>
+  <!-- nails -->
+  <g transform="translate(150 28) rotate(18 12 12) scale(1.7)"><path d="M8 3h8M12 3v15M10.8 18 12 21.5 13.2 18"/></g>
+  <g transform="translate(176 40) rotate(-12 12 12) scale(1.5)"><path d="M8 3h8M12 3v15M10.8 18 12 21.5 13.2 18"/></g>
+  <!-- hand saw -->
+  <g transform="translate(250 30) rotate(14 24 12) scale(1.15)">
+    <path d="M28 6 120 14v14L28 34Z"/>
+    <path d="M32 33l4 3 4-3 4 3 4-3 4 3 4-3 4 3 4-3 4 3 4-3 4 3 4-3 4 3 4-3 4 3 4-3 4 3 4-3 4 3 4-3 4 3"/>
+    <path d="M28 2H8a6 6 0 0 0-6 6v22a6 6 0 0 0 6 6h20Z"/><rect x="9" y="10" width="12" height="16" rx="5"/>
+  </g>
+  <!-- wrench -->
+  <g transform="translate(30 150) rotate(20 12 12) scale(2.4)">
+    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76Z"/>
+  </g>
+  <!-- tape measure -->
+  <g transform="translate(140 132) rotate(-10 12 12) scale(2.3)">
+    <rect x="2" y="5" width="14" height="14" rx="4"/><circle cx="9" cy="12" r="3"/><path d="M16 15.5h6.5v2.5H16M18.5 15.5v1.2M20.5 15.5v1.2"/>
+  </g>
+  <!-- cordless drill -->
+  <g transform="translate(258 130) rotate(-8 12 12) scale(2.5)">
+    <path d="M4 5h11a3 3 0 0 1 0 6H4Z"/><path d="M18 7h1.5v2H18M19.5 8H23"/><path d="M8 11 6.5 18h5L13 11"/><rect x="5" y="18" width="8" height="3.5" rx="1"/><path d="M4 7H2v2h2"/>
+  </g>
+  <!-- screws -->
+  <g transform="translate(370 120) rotate(30 12 12) scale(1.6)"><path d="M7 3h10l-1.5 3h-7Z"/><path d="M9.5 6h5v11L12 21l-2.5-4Z"/><path d="M9.5 9l5 1.6M9.5 12l5 1.6M9.5 15l5 1.6"/></g>
+  <!-- paint roller -->
+  <g transform="translate(360 220) rotate(-24 12 12) scale(2.4)">
+    <rect x="2" y="2" width="16" height="6" rx="2"/><path d="M10 16v-2a2 2 0 0 1 2-2h8a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="8" y="16" width="4" height="6" rx="1"/>
+  </g>
+  <!-- pliers -->
+  <g transform="translate(40 268) rotate(-30 12 12) scale(2.4)">
+    <path d="M11 9.2 9.8 3a1 1 0 0 1 1.6-.8L12 9M13 9.2 14.2 3a1 1 0 0 0-1.6-.8L12 9"/><circle cx="12" cy="10.6" r="1.6"/><path d="M10.8 12.2 6.5 21.5a1.2 1.2 0 0 0 2.1.9L12 13.4M13.2 12.2l4.3 9.3a1.2 1.2 0 0 1-2.1.9L12 13.4"/>
+  </g>
+  <!-- screwdriver -->
+  <g transform="translate(138 262) rotate(-32 12 12) scale(2.6)">
+    <rect x="1" y="9" width="9" height="6" rx="2.5"/><path d="M4 9v6M7 9v6"/><path d="M10 10.5h2v3h-2"/><path d="M12 12h8.5l2 0"/><path d="M20.5 11l2 1-2 1"/>
+  </g>
+  <!-- service van -->
+  <g transform="translate(232 238) scale(2.6)">
+    <path d="M3 16V7h11l4 4h3v5h-2"/><path d="M3 16h2m8 0h4"/><circle cx="7.5" cy="17" r="2"/><circle cx="16.5" cy="17" r="2"/><path d="M14.5 8v3H18"/><path d="M4 5.5h9"/>
+  </g>
+  <!-- spirit level -->
+  <g transform="translate(40 384) rotate(-6 48 8)">
+    <rect x="0" y="0" width="96" height="16" rx="3"/><rect x="40" y="4" width="16" height="8" rx="4"/><path d="M48 4v8M10 0v16M86 0v16"/>
+  </g>
+  <!-- hex nut + bolt -->
+  <g transform="translate(222 350) scale(1.8)"><path d="M12 3l7.8 4.5v9L12 21l-7.8-4.5v-9Z"/><circle cx="12" cy="12" r="3.5"/></g>
+  <!-- paintbrush -->
+  <g transform="translate(300 344) rotate(18 12 12) scale(2.3)"><path d="M8 3h8v7H8Z"/><path d="M7 10h10v3a2 2 0 0 1-2 2h-1v5a2 2 0 0 1-4 0v-5H9a2 2 0 0 1-2-2Z"/><path d="M10.5 3v3M13.5 3v3"/></g>
+  <!-- loose nail -->
+  <g transform="translate(396 330) rotate(-50 12 12) scale(1.6)"><path d="M8 3h8M12 3v15M10.8 18 12 21.5 13.2 18"/></g>
+  <!-- bolt -->
+  <g transform="translate(400 30) rotate(-20 12 12) scale(1.5)"><path d="M6 3h12v4H6Z"/><path d="M9.5 7h5v14h-5Z"/><path d="M9.5 10h5M9.5 13h5M9.5 16h5"/></g>
+  <!-- spare nails -->
+  <g transform="translate(176 392) rotate(70 12 12) scale(1.5)"><path d="M8 3h8M12 3v15M10.8 18 12 21.5 13.2 18"/></g>
+  <g transform="translate(372 404) rotate(-20 12 12) scale(1.4)"><path d="M8 3h8M12 3v15M10.8 18 12 21.5 13.2 18"/></g>
+</svg>

@@ -17,11 +17,15 @@ The `.claude/skills/` folder holds `write-plan` (drafts `plan/PLAN.md`) and `cle
 
 ## Structure and content
 
-`content/business.ts` holds the starter's shared business details and sample copy. When building a
-site, write page-specific copy directly in the route's `app/**/page.tsx` as JSX children of named React
-components. Put headings, calls to action, labels and captions in page order. Backing components
-own the semantic markup, Tailwind styles, accessibility and behavior. Keep typed data in `content/`
-for values the site reads programmatically, including contact details and structured collections.
+File ownership for this website:
+- `content/business.ts`: shared business details, people, landmark, weekly phone hours and enquiry checklist.
+- `content/rates.ts`: single source of truth for hourly, half-day, full-day and extended-zone trip rates, derived quarter-hour/first-hour helpers and validation.
+- `content/jobs.ts`: six job categories, 27 jobs, eight popular fridge-list jobs, licensed-trades exclusions and validation.
+- `content/areas.ts`: service areas, distances from Pack Square Park, 8-mile core/extended boundary and validation.
+- `app/**/page.tsx`: page-specific headings, copy, labels and CTAs as JSX children of named React components (`components/home-sections.tsx`, `components/rates-sections.tsx`, `components/contact-sections.tsx`, `components/jobs-workbench.tsx`).
+- `lib/tally.ts`, `lib/hours.ts`, `lib/structured-data.ts`: job tally math, `America/New_York` phone-lines status, and `HomeAndConstructionBusiness` JSON-LD.
+
+Keep typed data in `content/` for values the site reads programmatically, including contact details and structured collections.
 Document fields and validate IDs, required
 fields, prices, availability and references with item-specific failures. Rename in content and
 site.config.json. Keep the provisioner's config shape: name, description, domain, optional timeZone,

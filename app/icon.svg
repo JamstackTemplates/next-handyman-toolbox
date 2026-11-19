@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#2457a7"/><path d="M17 20h30v24H17zM24 14v36M40 14v36" fill="none" stroke="#fff" stroke-width="4"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="10" fill="#0d5257"/>
+  <!-- Clean red trade toolbox silhouette -->
+  <path d="M24 22v-4a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v4" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  <rect x="11" y="22" width="42" height="28" rx="4" fill="#cc291f"/>
+  <path d="M11 33h42" stroke="#0d5257" stroke-width="2.5"/>
+  <rect x="27" y="29" width="10" height="8" rx="1.5" fill="#ffffff"/>
+</svg>

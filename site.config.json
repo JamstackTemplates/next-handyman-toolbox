@@ -1,7 +1,8 @@
 {
-  "name": "Jamstacks starter",
-  "description": "A neutral Next.js foundation for Jamstacks websites.",
-  "domain": "",
+  "name": "Odd Jobs & Co. Handyman",
+  "description": "Odd Jobs & Co. is an Asheville handyman for the small jobs: hanging, mounting, flat-pack, patching, doors and outdoor fixes at $68 an hour, billed by the quarter hour.",
+  "domain": "next-handyman-toolbox.jamstacks.net",
+  "timeZone": "America/New_York",
   "jamstacks": {
     "siteId": "",
     "cdnUrl": "https://cdn.jamstacks.net"

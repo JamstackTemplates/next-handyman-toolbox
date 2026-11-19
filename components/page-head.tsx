@@ -1,20 +1,42 @@
 import type { ReactNode } from 'react';
+import { RateTag } from './artwork';
 
-/** Heading block for inner pages: eyebrow, large title (use <em> for the accent words) and a lede. */
-export function PageHead({ eyebrow, title, children, id, before }: {
-  eyebrow: string;
-  title: ReactNode;
+/**
+ * Clean hardware-store warehouse banner page head for /jobs/ and /rates/.
+ */
+export function PageHead({
+  tapeLabel,
+  title,
+  showRateTag = false,
+  children,
+}: {
+  tapeLabel: string;
+  title: string;
+  variant?: 'pegboard' | 'enamel';
+  showRateTag?: boolean;
   children?: ReactNode;
-  id?: string;
-  /** Optional illustration above the eyebrow. */
-  before?: ReactNode;
 }) {
   return (
-    <header className="wrap pt-[clamp(2.5rem,6vw,4.5rem)] pb-[clamp(1.5rem,3vw,2.5rem)]">
-      {before}
-      <p className="eyebrow">{eyebrow}</p>
-      <h1 id={id} className="mt-3 mb-5 max-w-[18ch] text-[clamp(2.6rem,6.5vw,4.6rem)]">{title}</h1>
-      {children ? <div className="max-w-(--measure) text-[clamp(1.08rem,1.6vw,1.22rem)] text-muted">{children}</div> : null}
-    </header>
+    <section className="border-b border-line bg-warehouse py-10 sm:py-14">
+      <div className="wrap flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+        <div className="max-w-2xl">
+          <span className="aisle-tag-on-dark">{tapeLabel}</span>
+          <h1 className="mt-3 font-display-tight text-4xl font-extrabold leading-[1.04] tracking-tight text-white sm:text-5xl">
+            {title}
+          </h1>
+          {children && (
+            <div className="mt-3 text-base leading-relaxed text-white/85 sm:text-lg">
+              {children}
+            </div>
+          )}
+        </div>
+
+        {showRateTag && (
+          <div className="w-full max-w-xs shrink-0">
+            <RateTag />
+          </div>
+        )}
+      </div>
+    </section>
   );
 }
